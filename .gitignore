@@ -1,0 +1,55 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+node_modules/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+/Data Tier/Proskauer.CIP.Database/Proskauer.CIP.Database.sqlproj.user
+/Web/Proskauer.CIP.AndroidApp/Proskauer.CIP.AndroidApp.csproj.user
+/Web/Proskauer.CIP.Mobile/Proskauer.CIP.Mobile.Android/Proskauer.CIP.Mobile.Android.csproj.user
+/Web/Proskauer.CIP.WebApi/Proskauer.CIP.WebApi.csproj.user
+/Web/Proskauer.CIP.Mobile/Proskauer.CIP.Mobile.iOS/Proskauer.CIP.Mobile.iOS.csproj.user
+
+.vscode/
+/Web Tier/CMS/Proskauer.CIP.CMS.Angular/dist/Proskauer.CIP.CMS.Angular
+/Web Tier/Shared/Proskauer.CIP.Shared.Angular/dist
+Web Tier/install
+/Web Tier/Proskauer.CIP.Angular/projects/Proskauer.CIP.CMS/proskauer-cms/src/assets/*
+!/Web Tier/Proskauer.CIP.Angular/projects/Proskauer.CIP.CMS/proskauer-cms/src/assets/.gitkeep
+/Web Tier/Proskauer.CIP.Angular/projects/Proskauer.CIP.Portal/proskauer-portal/src/assets/*
+!/Web Tier/Proskauer.CIP.Angular/projects/Proskauer.CIP.Portal/proskauer-portal/src/assets/.gitkeep
+*.code-workspace
